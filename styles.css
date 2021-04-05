@@ -1,0 +1,376 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+/* Iphone 5 */
+/* @media (min-width: 320px) and (max-width: 568px) {
+    .container .img-lg .badge {
+        min-width: 100px;
+        position: relative;
+        left: 60vw;
+    }
+    
+    .container .img-sm .badge {
+        min-width: 100px;
+        position: relative;
+        left: 67vw;
+        top: 2vh;
+    } */
+
+/* Phones */
+@media (max-width: 500px) {
+
+        .container{
+        text-align: center;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        }    
+        
+        .container .img-inner {
+        display: flex;
+        justify-content: center;
+        } 
+
+        .container .img-inner img {
+            height: 23px;
+            align-self: center;
+            margin: 40px 10px;
+            }
+
+        .container .img-lg .badge {
+            min-width: 100px;
+            position: relative;
+            left: 65vw;
+            top: 2vh;
+        }
+        
+        .container .img-sm .badge {
+            min-width: 100px;
+            position: relative;
+            left: 67vw;
+            top: 2vh;
+        }
+
+        .img-lg .offer {
+            position: relative;
+            bottom: 6vh;
+            }
+            
+            .img-sm .offer {
+            position: relative;
+            bottom: 6vh;
+            }
+
+            .container .img-inner .header {
+                font-size: 2rem;
+                }
+
+                .container .first {
+                    flex-basis: 38vw;
+                    background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/644628.webp?k=d295396b7c00f401caf286bf434e06a9537876ab0302f7793026ade9d6624bcf&o=);
+                    }
+                    
+                    .container .second {
+                    flex-basis: 38vw;
+                    background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/644363.webp?k=d7dfbc64880d52cf00797f6a0e34568e4d25fc913a719a721a06832b5c5a9308&o=);
+                    }
+                    
+                    .container .third {
+                    flex-basis: 38vw;
+                    background: url(https://cf.bstatic.com/xdata/images/city/540x270/644333.webp?k=5ef264baf6fb50c13b119d4b378111f7072e30c42996c51ce7e76f2574e1d785&o=)
+                    }
+                    
+                    .container .fourth {
+                    flex-basis: 38vw;
+                    background: url(https://cf.bstatic.com/xdata/images/city/540x270/644353.webp?k=4128bd68972a65b2ba7b708effdd3693e820e1c83748cefedef387bd85abe715&o=)
+                    }
+                    
+                    .container .fifth {
+                    flex-basis: 38vw;
+                    background: url(https://cf.bstatic.com/xdata/images/city/540x270/691351.webp?k=929a4b1f410d06807dfc972d32353bb1fc4bb2028b5c5742fc807a6e63fff86f&o=)
+                    }
+}
+
+
+/* Ipads and other tablets */
+@media only screen and (max-width: 800px) and (min-width: 700px) {
+
+            .container{
+                text-align: center;
+                margin: 50px auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                }    
+        
+                .container .img-inner {
+                display: flex;
+                justify-content: center;
+                } 
+        
+                .container .img-inner img {
+                    height: 23px;
+                    align-self: center;
+                    margin: 40px 10px;
+                    }
+
+                    .container .img-inner .header {
+                        font-size: 2.5rem;
+                        }
+           
+        
+                .container .img-lg .badge {
+                    min-width: 200px;
+                    position: relative;
+                    left: 70vw;
+                    top: 10vh;
+                }
+                
+                .container .img-sm .badge {
+                    min-width: 200px;
+                    position: relative;
+                    left: 70vw;
+                    top: 10vh;
+                }
+        
+                .img-lg .offer {
+                    position: relative;
+                    bottom: 6vh;
+                    left: -2vw;
+                    font-size: 1.4rem;
+                    }
+                    
+                    .img-sm .offer {
+                    position: relative;
+                    bottom: 6vh;
+                    left: -2vw;
+                    font-size: 1.4rem;
+                    }
+                    
+                    
+                .container .first {
+                    flex-basis: 38vw;
+                    background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/644628.webp?k=d295396b7c00f401caf286bf434e06a9537876ab0302f7793026ade9d6624bcf&o=);
+                    }
+                    
+                    .container .second {
+                    flex-basis: 38vw;
+                    background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/644363.webp?k=d7dfbc64880d52cf00797f6a0e34568e4d25fc913a719a721a06832b5c5a9308&o=);
+                    }
+                    
+                    .container .third {
+                    flex-basis: 38vw;
+                    background: url(https://cf.bstatic.com/xdata/images/city/540x270/644333.webp?k=5ef264baf6fb50c13b119d4b378111f7072e30c42996c51ce7e76f2574e1d785&o=)
+                    }
+                    
+                    .container .fourth {
+                    flex-basis: 38vw;
+                    background: url(https://cf.bstatic.com/xdata/images/city/540x270/644353.webp?k=4128bd68972a65b2ba7b708effdd3693e820e1c83748cefedef387bd85abe715&o=)
+                    }
+                    
+                    .container .fifth {
+                    flex-basis: 38vw;
+                    background: url(https://cf.bstatic.com/xdata/images/city/540x270/691351.webp?k=929a4b1f410d06807dfc972d32353bb1fc4bb2028b5c5742fc807a6e63fff86f&o=)
+                    }
+
+
+}    
+
+
+/* Ipad Pro */
+@media only screen and (max-width: 1100px) and (min-width: 1000px) {
+
+    .container{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        }   
+
+        .container .img-inner {
+            display: flex;
+            justify-content: center;
+            font-size: 3rem;
+            } 
+
+            .container .img-inner img {
+                height: 23px;
+                align-self: center;
+                margin: 40px 10px;
+                }
+
+                
+           .img-lg .offer {
+            position: relative;
+            bottom: 4vh;
+            font-size: 1.2rem;
+            }
+            
+            .img-sm .offer {
+            position: relative;
+            bottom: 4vh;
+            }
+
+            .container .img-inner .header {
+             font-size: 2.5rem;
+             }
+
+                .container .img-lg .badge {
+                    min-width: 200px;
+                    position: relative;
+                    left: 9vw;
+                    top: 12vh;
+                    font-size: 1.3rem;
+                }
+                
+                .container .img-sm .badge {
+                    min-width: 200px;
+                    position: relative;
+                    left: 10vw;
+                    top: 11vh;
+                    font-size: 1.3rem;
+                }
+
+
+                .container .first {
+                    flex-basis: 38vw;
+                    background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/644628.webp?k=d295396b7c00f401caf286bf434e06a9537876ab0302f7793026ade9d6624bcf&o=);
+                    }
+                    
+                    .container .second {
+                    flex-basis: 38vw;
+                    background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/644363.webp?k=d7dfbc64880d52cf00797f6a0e34568e4d25fc913a719a721a06832b5c5a9308&o=);
+                    }
+                    
+                    .container .third {
+                    flex-basis: 38vw;
+                    background: url(https://cf.bstatic.com/xdata/images/city/540x270/644333.webp?k=5ef264baf6fb50c13b119d4b378111f7072e30c42996c51ce7e76f2574e1d785&o=)
+                    }
+                    
+                    .container .fourth {
+                    flex-basis: 38vw;
+                    background: url(https://cf.bstatic.com/xdata/images/city/540x270/644353.webp?k=4128bd68972a65b2ba7b708effdd3693e820e1c83748cefedef387bd85abe715&o=)
+                    }
+                    
+                    .container .fifth {
+                    flex-basis: 77.6vw;
+                    background: url(https://cf.bstatic.com/xdata/images/city/540x270/691351.webp?k=929a4b1f410d06807dfc972d32353bb1fc4bb2028b5c5742fc807a6e63fff86f&o=)
+                    }
+                
+
+}    
+
+
+/* Desktops */
+
+.container{
+text-align: center;
+margin: 0 auto;
+margin-top: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.container .first {
+flex-basis: 38vw;
+background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/644628.webp?k=d295396b7c00f401caf286bf434e06a9537876ab0302f7793026ade9d6624bcf&o=);
+}
+
+.container .second {
+flex-basis: 38vw;
+background-image: url(https://cf.bstatic.com/xdata/images/city/540x270/644363.webp?k=d7dfbc64880d52cf00797f6a0e34568e4d25fc913a719a721a06832b5c5a9308&o=);
+}
+
+.container .third {
+flex-basis: 25vw;
+background: url(https://cf.bstatic.com/xdata/images/city/540x270/644333.webp?k=5ef264baf6fb50c13b119d4b378111f7072e30c42996c51ce7e76f2574e1d785&o=)
+}
+
+.container .fourth {
+flex-basis: 25vw;
+background: url(https://cf.bstatic.com/xdata/images/city/540x270/644353.webp?k=4128bd68972a65b2ba7b708effdd3693e820e1c83748cefedef387bd85abe715&o=)
+}
+
+.container .fifth {
+flex-basis: 25vw;
+background: url(https://cf.bstatic.com/xdata/images/city/540x270/691351.webp?k=929a4b1f410d06807dfc972d32353bb1fc4bb2028b5c5742fc807a6e63fff86f&o=)
+}
+
+.container .img{
+    border-radius: 2px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35vh;
+    margin: 7px;
+    color: #fff;
+}    
+
+.container .img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+.container .badge{
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 10vw;
+    border-radius: 5px;
+    }
+
+/* Text inside the image */
+.container .img-inner {
+display: flex;
+margin-left: 6%;
+}
+
+.container .img-inner .header {
+font-size: 2rem;
+}
+
+.container .img-inner img {
+height: 23px;
+align-self: center;
+margin: 40px 10px;
+}
+
+.container .img-lg .badge {
+    position: relative;
+    left: 72%;
+    top: 17%;
+}
+
+.container .img-sm .badge {
+    position: relative;
+    left: 57%;
+    top: 17%;
+}
+
+.container .badge{
+background: rgba(0, 0, 0, 0.8);
+color: #fff;
+width: 10vw;
+border-radius: 5px;
+}
+
+.img-lg .offer {
+position: relative;
+bottom: 20%;
+right: 27%;
+}
+
+.img-sm .offer {
+position: relative;
+bottom: 20%;
+right: 19%;
+}

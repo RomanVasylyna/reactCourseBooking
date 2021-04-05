@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="logInfo()">
+    <div class="container">
+
+       <div class="img img-lg first">
+
+        <div class="img-inner">
+        <h3 class="header">Шарм-эш-Шейх</h3>
+        <img src="https://cf.bstatic.com/static/img/flags/24/eg/94c2ce480065a13673761094eee3253d71aaf5df.png" alt="">
+        </div>
+        <p class="offer">370 вариантов размещения</p>
+
+        <!-- Gray Badge -->
+        <div class="badge">
+        <p>Средняя цена</p>
+        <p>2908 UAH</p>
+        </div>
+
+       </div>
+
+       <div class="img img-lg second">
+        <div class="img-inner">
+            <h3 class="header">Каир</h3>
+            <img src="https://cf.bstatic.com/static/img/flags/24/eg/94c2ce480065a13673761094eee3253d71aaf5df.png" alt="">
+            </div>
+            <p class="offer">1430 вариантов размещения</p>
+
+            <!-- Gray Badge -->
+            <div class="badge">
+            <p>Средняя цена</p>
+            <p>2045 UAH</p>
+            </div>
+       </div>
+
+       <div class="img img-sm third">
+        <div class="img-inner">
+            <h3 class="header">Хургада</h3>
+            <img src="https://cf.bstatic.com/static/img/flags/24/eg/94c2ce480065a13673761094eee3253d71aaf5df.png" alt="">
+            </div>
+            <p class="offer">896 вариантов размещения</p>
+
+            <!-- Gray Badge -->
+            <div class="badge">
+            <p>Средняя цена</p>
+            <p>2993 UAH</p>
+            </div>
+       </div>
+
+       <div class="img img-sm fourth">
+        <div class="img-inner">
+            <h3 class="header">Александрия</h3>
+            <img src="https://cf.bstatic.com/static/img/flags/24/eg/94c2ce480065a13673761094eee3253d71aaf5df.png" alt="">
+            </div>
+            <p class="offer">389 вариантов размещения</p>
+
+            <!-- Gray Badge -->
+            <div class="badge">
+            <p>Средняя цена</p>
+            <p>3591 UAH</p>
+            </div>
+       </div>
+
+       <div class="img img-sm fifth">
+        <div class="img-inner">
+            <h3 class="header">Айн-Сохна</h3>
+            <img src="https://cf.bstatic.com/static/img/flags/24/eg/94c2ce480065a13673761094eee3253d71aaf5df.png" alt="">
+            </div>
+
+            <p class="offer">418 вариантов размещения</p>
+
+            <!-- Gray Badge -->
+            <div class="badge">
+            <p>Средняя цена</p>
+            <p>3557 UAH</p>
+            </div>
+       </div>
+
+    </div>
+
+
+
+<script>
+     
+function logInfo() {
+let cards = document.querySelectorAll(".img");    
+cards.forEach(elem => {
+elem.onclick = function() {
+console.log(elem.firstElementChild.firstElementChild.innerText);
+};
+})    
+}   
+</script>
+
+</body>
+</html>
